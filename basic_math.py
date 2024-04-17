@@ -10,7 +10,7 @@ def square(x: float) -> float:
 def add_squares(x: float, y: float) -> float:
     x = square(x)
     y = square(y)
-    return(multiply(x,y))
+    return(add(x,y))
 
 def main():
     a=add(3,4)
